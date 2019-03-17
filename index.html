@@ -12,7 +12,7 @@ Celines Birthday Party
 	background: url('http://s8.picofile.com/file/8355125292/unicorn_background_tumblr_783741.jpg');
 	}
 	
-	.divs{height:100%; }
+	.divs{height:100%;}
 	
 	#the-map{
 	width:100%;
@@ -48,17 +48,44 @@ Celines Birthday Party
 	
 	}
 	
-	#invite{
+	.invite{
+	margin:10px;
+	font-family:Jomhuria;
+	font-size:7.5vw;
 	text-align:center;
 	color:white;
-	background-color: rgba(81, 228, 255, 0.5);
-	padding-bottom:64px;
-	padding-top:64px;
+	background-color: rgba(22, 93, 206, 0.7);
+	padding-bottom:32px;
+	padding-top:10px;
 	}
 	#15528173334660331{
 	z-index:1;
 	}
+	#timedate{
+	margin-bottom:0px;
+	}
+	#blue{
+	color:blue;
+	}
+	#end{
+	margin:10px;
+	margin-top:0px;
+	font-family:Jomhuria;
+	font-size:9vw;
+	background-color: rgba(22, 93, 206, 0.7);
+	text-align:center;
+	color:black;
+	padding-top:10px;
+	}
 	
+	#address{
+	color:black;
+	font-size:6vw;
+	}
+	
+	#time{
+	
+	}
 	</style>
 </head>
 <body>
@@ -72,16 +99,25 @@ Celines Birthday Party
 
 <!-- ............................................... -->
 
-<div id="invite">
-<h1> Some <br> Text <br> Here! </h1>
+<div class="invite">
+<p id="poem">یک شمع صورتی روی کیک گذاشته ایم<br>
+<span style="color:pink;">سلین </span>کوچولو فوت خواهد کرد <br>
+و ما برای سلامتی همه ی شما آرزو خواهیم کرد<br>
+</p>شما هم با ما در این شب آرزو ها شریک باشید
 </div>
+<div class="invite" id="timedate">
+<p id="time">زمان برگزاری جشن: جمعه 98/01/02<br>
+ساعت 19:00<br>
+</p>
 
+<p id="address"> آدرس:اندیشه فاز 4 خیابان توحید شمالی پایین تر از چهارراه ارغوان خیابان الامه جعفری نبش خیابان خواجه نصیرالدین طوسی، <span id="blue">مکتب آبی</span></p>
+</div>
 <!-- ............................................... -->
 
 <div id="map">
 <iframe id="the-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.9129510440375!2d51.03534471506315!3d35.70375968018905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8ded1e193a1e67%3A0xc9394f895cdd82f9!2sBlue+school!5e0!3m2!1sen!2sus!4v1552820522571" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>
-
+<p id="end"> منتظرتون هستیم</p>
 </body>
 
 </html>
